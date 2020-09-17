@@ -1,0 +1,25 @@
+.authorization {
+    padding: 50px 0;
+}
+.form-row {
+    display: flex;
+    align-items: center;
+}
+.form-row:first-child {
+    margin-bottom: 50px;
+}
+label {
+    margin: 0;
+    margin-right: 20px;
+    /* margin-bottom: 25px; */
+    font-weight: bold;
+    font-size: 40px;
+    /* line-height: 55px; */
+    font-family: "Roboto", "Arial", sans-serif;
+    color: #363636;
+    width: 400px;
+}
+input {
+    height: 56px;
+    width: 50%;
+}

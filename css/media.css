@@ -11,22 +11,17 @@
         max-width: 750px;
         padding: 0 20px;
     }
-    .header-logo {
-        max-width: 135px;
-        height: 55px;
-        z-index: 3;
-    }
-    .header-btn {
+    .section-btn {
         height: 55px;
         max-width: 135px;
         position: relative;
         z-index: 2;
     }
-    a.btn {
+    a.catalog-head-btn, a.question-head-btn, a.contact-head-btn {
         display: inline-block;
         width: 100%;
         height: 55px;
-        padding: 0 30px;
+        padding: 0 25px;
         text-align: center;
         color: #363636;
         line-height: 2.7;
@@ -35,24 +30,6 @@
         border: 2px solid #363636;
         border-radius: 5px;
     }
-    ul.main-nav {
-        list-style: none;
-        position: relative;
-        z-index: 2;
-        /* margin-right: 85px; */
-        margin-top: 18px;
-        display: flex;
-        min-width: 400px;
-        /* justify-content: space-between; */
-    }
-
-    .section-btn {
-        height: 55px;
-        max-width: 135px;
-        position: relative;
-        z-index: 2;
-    }
-
 
     .popular-list {
         display: flex;
@@ -99,115 +76,30 @@
     .item-img img {
         width: 100%
     }
-    a.btn-footer {
-        padding: 0 18px;
+
+    .authorization .form-row, .contact .form-row {
+        flex-direction: column;
     }
+    .authorization label, .contact label {
+        width: 100%;
+        margin-bottom: 20px;
+        padding-left:10px;
+        font-size: 30px;
+    }
+    .authorization input, .contact input, .contact textarea {
+        width: 100%;
+    }
+
     
     
 
 
 }
 @media (max-width: 767px) {
-    body.lock {
-        overflow: hidden;
-    }
     .container {
         max-width: none;
         padding: 0 20px;
     }
-    .header-logo, .footer-logo {
-        max-width: 120px;
-        height: 45px;
-    }
-    .burger-menu {
-        display: block;
-        position: relative;
-        z-index: 3;
-        width: 30px;
-        height: 20px;
-    }
-    .burger-menu span {
-        display: block;
-        position: absolute;
-        left: 0;
-        width: 100%;
-        height: 2px;
-        background: #363636;
-        top: 9px;
-        transition: 1s;
-    }
-    .burger-menu::before,
-    .burger-menu::after {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 2px;
-        background: #363636;
-        left: 0;
-        transition: 1s;
-    }
-    .burger-menu::before {
-        top: 0;
-    }
-    .burger-menu::after {
-        bottom: 0;
-    }
-    .burger-menu.active::after {
-        transform: rotate(-45deg);
-        bottom: 9px;
-        transition: 1s;
-    }
-    .burger-menu.active span {
-        transform: scale(0);
-        transition: 1s;
-    }
-
-    .header-nav {
-        position: fixed;
-        left: -100%;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background-color: #eeeeee;
-        padding: 100px 0 0 0px;
-        transition: 2s;
-    }
-    .header-btn {
-        position: fixed;
-        left: -150%;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        margin-top: 270px;
-        margin-left: 20px;
-        transition: 2s;
-    }
-    .header-nav.active {
-        left: 0;
-        transition: 2s;
-    }
-    .header-btn.active {
-        left: 0;
-        transition: 2s;
-    }
-
-    ul.main-nav {
-        display: block;
-    }
-    ul.main-nav li {
-        margin: 0 0 20px 20px
-    }
-
-    .burger-menu.active::before {
-        transform: rotate(45deg);
-        top: 9px;
-        transition: 1s;
-        
-    }
-    .header-middle {
-        font-size: 18px;
-    }
-
     .section-title {
         margin: 0;
         margin-bottom: 20px;
@@ -215,8 +107,6 @@
         font-size: 34px;
         line-height: 55px;
     }
-
-
     .swiper-container {
         width: 100%;
         height: 810px;
@@ -303,23 +193,22 @@
         height: 300px;
     }
 
-    /* footer */
-    .footer-top {
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-    .footer-logo {
-        margin-bottom: 30px;
-    }
-    .footer-list {
-        flex-direction: column;
-        justify-content: flex-start;
-        margin-left: 20px;
-    }
-    .footer-menu h3 {
+
+    .question-title{
+        margin: 0;
         margin-bottom: 20px;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 35px;
+        font-family: "Roboto", "Arial", sans-serif;
+        color: #363636;
     }
-    .footer-menu {
-        margin-bottom: 20px;
+    .question-text {
+        margin: 0;
+        margin-bottom: 50px;
+        font-size: 24px;
+        line-height: 35px;
+        font-family: "Roboto", "Arial", sans-serif;
+        color: #363636;
     }
 }
