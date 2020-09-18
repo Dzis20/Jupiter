@@ -68,3 +68,7 @@
     font-weight: 500;
     line-height: 2.3;
 }
+.item-btn:hover {
+    background: #fb565a;
+    transition: 2s;
+}

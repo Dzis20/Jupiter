@@ -48,7 +48,11 @@ label {
 input {
     height: 56px;
     width: 50%;
+    border-radius: 5px;
+    border: 2px solid #363636;
 }
 textarea {
     width: 50%;
+    border-radius: 5px;
+    border: 2px solid #363636;
 }

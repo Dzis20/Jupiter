@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jupiter - Заказ товара</title>
+    <meta name="description" content="Описание содержимого страницы">
+    <meta name="keywords" content="Ключевые слова через запятую">
+    <link rel="stylesheet" href="css/body-style.css">
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/order-style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script> <!--jQuery-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"> <!--Иконки-->
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-top-content">
+                        <div class="header-logo">
+                            <a href="index.html"><img src="img/logo.png" alt="Jupiter" ></a>
+                        </div>
+                        <div class="burger-menu">
+                            <span></span>
+                        </div>
+                        <div class="header-nav">
+                            <ul class="main-nav">
+                                <li class="main-nav-item"><a href="catalog.html">Каталог</a></li>
+                                <li class="main-nav-item"><a href="question.html">Вопрос/Ответ</a></li>
+                                <li class="main-nav-item"><a href="contact.html">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <div class="header-btn">
+                            <a class="order-head-btn" href="order.html">Заказать</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-middle">
+                <h1>Заказ товара</h1>
+            </div>
+            <div class="header-bottom">
+                <i class="fas fa-angle-down fa-3x"></i>
+            </div>
+        </div>
+    </div>
+    <div class="order">
+        <div class="container">
+            <h2 class="section-title">Введите необходимые данные</h2>
+            <form action="" class="order-form">
+                <div class="form-part">
+                    <div class="form-row form-name">
+                        <label for="fullname">Представьтесь, пожалуйста:</label>
+                        <input type="text" name="fullname" id="fullname">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-row-left-part">
+                            <label for="phone">Контактный телефон:</label>
+                            <input type="text" name="phone" id="phone">
+                        </div>
+                        <div class="form-row-right-part">
+                            <label for="email">Адрес доставки:</label>
+                            <input type="text" name="email" id="email">
+                        </div>
+                    </div>
+                    <div class="form-row form-check">
+                        <input type="checkbox" name="subscription">
+                        <label>Я согласен получать на телефон смс со статусом заказа</label>
+                    </div>
+                </div>
+                <div class="form-part">
+                    <div class="form-row">
+                        <div class="form-row-left-part">
+                            <label for="topic">Тип товара:</label>
+                            <select name="topic" id="topic">
+                                <option value="1">Условия доставки</option>
+                                <option value="2">Возврат товара</option>
+                                <option value="3">Жалоба в Роспотребнадзор</option>
+                            </select>
+                        </div>
+                        <div class="form-row-right-part">
+                            <label for="topic">Тип товара:</label>
+                            <select name="topic" id="topic">
+                                <option value="1">Условия доставки</option>
+                                <option value="2">Возврат товара</option>
+                                <option value="3">Жалоба в Роспотребнадзор</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row message">
+                        <label for="message">Пожелания к заказу:</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                    <div class="form-row">
+                        <input type="submit" class="btn" value="Отправить">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <img src="img/logo.png" alt="" class="logo">
+                </div>
+            </div>
+            <div class="footer-middle">
+                <div class="footer-list">
+                    <div class="footer-menu">
+                        <h3>Магазин</h3>
+                        <ul>
+                        <li><a href="catalog.html">Каталог</a></li>
+                        <li><a href="question.html">О нас</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-menu">
+                        <h3>Отзывы</h3>
+                        <ul>
+                        <li><a href="#">Показать</a></li>
+                        <li><a href="contact.html">Оставить</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-menu">
+                        <h3>Заказ</h3>
+                        <ul>
+                        <li><a href="order.html">Оформить</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

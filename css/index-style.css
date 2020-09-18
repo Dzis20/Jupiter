@@ -110,6 +110,10 @@ h3.slide-title {
     display: flex;
     justify-content: center;
 }
+.popular-item-btn:hover {
+    background: #fb565a;
+    transition: 2s;
+}
 .popular-item-btn a {
     text-align: center;
     width: 100%;

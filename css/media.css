@@ -67,11 +67,11 @@
         border: 1px solid #363636;
         margin-bottom: 30px;
     }
-    .item-img {
-        max-width: 506px;
-        max-height: 500px;
-        border-bottom: 1px solid #363636;
-        margin-bottom: 30px;
+    .item-img{
+        max-width: 330px;
+    max-height: 326px;
+    border-bottom: 1px solid #363636;
+    margin-bottom: 20px;
     }
     .item-img img {
         width: 100%
@@ -88,6 +88,11 @@
     }
     .authorization input, .contact input, .contact textarea {
         width: 100%;
+    }
+
+
+    .order-form {
+        max-width: 100%
     }
 
     
@@ -182,7 +187,7 @@
         border: 2px solid #363636
     }
     .item-img{
-        height: 360px;
+        max-height: 360px;
     }
 
     /* video */
@@ -210,5 +215,14 @@
         line-height: 35px;
         font-family: "Roboto", "Arial", sans-serif;
         color: #363636;
+    }
+    .form-row {
+        flex-direction: column;
+    }
+    .form-check {
+        flex-direction: row
+    }
+    .form-row-left-part, .form-row-right-part {
+        width: 100%;
     }
 }
