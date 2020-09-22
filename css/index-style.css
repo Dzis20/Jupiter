@@ -21,14 +21,14 @@ h3.slide-title {
     font-weight: bold;
     font-size: 36px;
     font-family: "Roboto", "Arial", sans-serif;
-    color: #363636;
+    /* color: #363636; */
     margin-bottom: 40px;
   }
 .slide-text p {
     font-weight: 500;
     line-height: 40px;
     font-size: 30px;
-    color: #363636;
+    /* color: #363636; */
     margin-bottom: 30px;
   }
   .slide-text a {
@@ -63,7 +63,7 @@ h3.slide-title {
 
 .popular {
     padding: 50px 0;
-    background: #eeeeee;
+    /* background: #eeeeee; */
 }
 .popular-header {
     display: flex;
@@ -81,18 +81,34 @@ h3.slide-title {
     max-width: 330px;
     display: flex;
     flex-direction: column;
-    border: 2px solid #363636
+    
 }
+.popular-item-lt {
+    border: 2px solid #363636;
+}
+.popular-item-dt {
+    border: 2px solid #eee;
+}
+
 .popular-item-img {
     max-width: 330px;
     max-height: 326px;
-    border-bottom: 1px solid #363636;
+    
     margin-bottom: 20px;
 }
+.popular-item-img-lt {
+    border-bottom: 1px solid #363636;
+}
+.popular-item-img-dt {
+    border-bottom: 1px solid #eee;
+}
+
 .popular-item-img img {
     width: 100%
 }
-.popular-tex-row {
+
+
+.popular-text-row {
     display: flex;
     justify-content: space-between;
     margin: 0 4%;
@@ -100,20 +116,36 @@ h3.slide-title {
     font-size: 16px;
     font-weight: 600;
 }
+
+
 .popular-item-btn {
     height: 45px;
     max-width: 94%;
-    border: 2px solid #363636;
+    
     margin: 0 4%;
     margin-bottom: 20px;
     border-radius: 5px;
     display: flex;
     justify-content: center;
 }
-.popular-item-btn:hover {
-    background: #fb565a;
-    transition: 2s;
+.popular-item-btn-lt {
+    border: 2px solid #363636;
 }
+.popular-item-btn-dt {
+    border: 2px solid #eee;
+}
+
+
+.popular-item-btn:hover {
+    background: #363636;
+    transition: 0.5s;
+}
+.popular-item-btn-dt:hover {
+    background: #eee;
+    transition: 0.5s;
+}
+
+
 .popular-item-btn a {
     text-align: center;
     width: 100%;
@@ -123,8 +155,26 @@ h3.slide-title {
     font-weight: 500;
     line-height: 2.3;
 }
+.popular-item-btn-dt a {
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #eee;
+    font-weight: 500;
+    line-height: 2.3;
+}
+
+
+.popular-item-btn:hover a {
+    color: #eee;
+    transition: 0.5s;
+}
+.popular-item-btn-dt:hover a {
+    color: #363636;
+    transition: 0.5s;
+}
 
 .video {
     padding: 50px 0;
 }
-

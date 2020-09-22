@@ -12,8 +12,9 @@
     border-radius: 5px;
 }
 .contact-head-btn:hover {
-    background: #fb565a;
-    transition: 1s;
+    color: #eee;
+    transition: 0.5s;
+    background: #363636;
 }
 
 .map {
@@ -28,10 +29,13 @@
     align-items: center;
 }
 .form-row {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 .form-row:last-child {
     display: flex;
+    align-items: flex-start;
+}
+.from-row-message {
     align-items: flex-start;
 }
 label {
@@ -55,4 +59,13 @@ textarea {
     width: 50%;
     border-radius: 5px;
     border: 2px solid #363636;
+}
+
+input[type="submit"] {
+    width: 200px;
+    height: 54px;
+    /* padding: 9px 15px; */
+    border: 2px solid #363636;
+    border-radius: 5px;
+    font: inherit
 }

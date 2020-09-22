@@ -12,8 +12,9 @@
     border-radius: 5px;
 }
 .question-head-btn:hover {
-    background: #fb565a;
-    transition: 1s;
+    color: #eee;
+    transition: 0.5s;
+    background: #363636;
 }
 
 .question {

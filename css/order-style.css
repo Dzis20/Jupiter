@@ -17,8 +17,9 @@
     border-radius: 5px;
 }
 .order-head-btn:hover {
-    background: #fb565a;
-    transition: 1s;
+    color: #eee;
+    transition: 0.5s;
+    background: #363636;
 }
 
 .order-form {
@@ -77,4 +78,20 @@
 }
 .message textarea {
     min-height: 120px;
+}
+
+input[type="submit"] {
+    width: 200px;
+    height: 54px;
+    /* padding: 9px 15px; */
+    border: 2px solid #363636;
+    border-radius: 5px;
+    /* transition: 1s; */
+    transition: 0.5s;
+}
+
+input[type="submit"]:hover {
+    color: #eee;
+    background: #363636;
+    transition: 0.5s;
 }
