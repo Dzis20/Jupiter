@@ -198,6 +198,7 @@ i.fa-angle-down:hover {
 .footer-btn {
     height: 55px;
     width: 280px;
+    cursor: pointer;
 }
 .footer-btn a.btn {
     display: inline-block;
