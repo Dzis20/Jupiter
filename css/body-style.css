@@ -85,13 +85,13 @@ a.other-btn:hover {
 }
 .drop-up-lt {
     color: inherit;
-    background: inherit;
+    background: #eee;
     border: 1px solid #363636;
     box-shadow: 5px -2px 5px 0px;
 }
 .drop-up-dt {
     color: inherit;
-    background: inherit;
+    background: #363636;
     border: 1px solid #eeeeee;
     box-shadow: 0px 0px 15px 0px;
 }
