@@ -1,0 +1,147 @@
+.contact-head-btn {
+    display: inline-block;
+    width: 100%;
+    height: 55px;
+    padding: 0 55px;
+    text-align: center;
+    line-height: 2.7;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.contact-head-btn.btn-lt {
+    color: #363636;
+    border: 2px solid #363636;
+}
+.contact-head-btn.btn-dt {
+    color: #eee;
+    border: 2px solid #eee;
+}
+.contact-head-btn.btn-lt:hover {
+    color: #eee;
+    transition: 0.5s;
+    background: #363636;
+}
+.contact-head-btn.btn-dt:hover {
+    color: #363636;
+    transition: 0.5s;
+    background: #eee;
+}
+
+
+
+.map {
+    padding: 50px 0;
+}
+
+.contact form {
+    padding-top: 50px;
+}
+.form-row {
+    display: flex;
+    align-items: center;
+}
+.form-row {
+    margin-bottom: 25px;
+}
+.form-row:last-child {
+    display: flex;
+    align-items: flex-start;
+}
+.from-row-message {
+    align-items: flex-start;
+}
+label {
+    margin: 0;
+    /* margin-right: 20px; */
+    /* margin-bottom: 25px; */
+    font-weight: bold;
+    font-size: 40px;
+    /* line-height: 55px; */
+    font-family: "Roboto", "Arial", sans-serif;
+    width: 400px;
+}
+input {
+    height: 56px;
+    width: 50%;
+    border-radius: 5px;
+    border: 2px solid #363636;
+}
+textarea {
+    width: 50%;
+    border-radius: 5px;
+    border: 2px solid #363636;
+}
+
+input[type="submit"] {
+    width: 200px;
+    height: 54px;
+    /* padding: 9px 15px; */
+    
+    border-radius: 5px;
+    
+}
+
+input[type="submit"].btn-lt {
+    border: 2px solid #363636;
+    background: inherit;
+    font: inherit
+}
+input[type="submit"].btn-dt {
+    border: 2px solid #eee;
+    background: inherit;
+    font: inherit
+}
+input[type="submit"].btn-lt:hover {
+    background: #363636;
+}
+
+
+.item-btn {
+    height: 45px;
+    max-width: 94%;
+    margin: 0 4%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+.item-btn-lt {
+    border: 2px solid #363636;
+}
+.item-btn-dt {
+    border: 2px solid #eee;
+}
+
+
+.item-btn-lt a {
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #363636;
+    font-weight: 500;
+    line-height: 2.3;
+}
+.item-btn-dt a {
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #eee;
+    font-weight: 500;
+    line-height: 2.3;
+}
+
+.item-btn.item-btn-lt:hover {
+    background: #363636;
+    color: #eee;
+    transition: 0.5s;
+}
+.item-btn.item-btn-dt:hover a {
+    background: #eee;
+    color: #363636;
+    transition: 0.5s;
+}

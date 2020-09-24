@@ -1,0 +1,124 @@
+.catalog-head-btn {
+    display: inline-block;
+    width: 100%;
+    height: 55px;
+    padding: 0 55px;
+    text-align: center;
+    line-height: 2.7;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.catalog-head-btn.btn-lt {
+    color: #363636;
+    border: 2px solid #363636;
+}
+.catalog-head-btn.btn-dt {
+    color: #eee;
+    border: 2px solid #eee;
+}
+.catalog-head-btn.btn-lt:hover {
+    color: #eee;
+    transition: 0.5s;
+    background: #363636;
+}
+.catalog-head-btn.btn-dt:hover {
+    color: #363636;
+    transition: 0.5s;
+    background: #eee;
+}
+
+
+.items {
+    padding: 50px 0;
+}
+.items-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    max-width: 330px;
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom: 50px;
+}
+.item-lt {
+    border: 2px solid #363636;
+}
+.item-dt {
+    border: 2px solid #eee;
+}
+
+.item-img {
+    max-width: 330px;
+    max-height: 326px;
+    
+    margin-bottom: 20px;
+}
+.item-img-lt {
+    border-bottom: 1px solid #363636;
+}
+.item-img-dt {
+    border-bottom: 1px solid #eee;
+}
+
+.item-img img {
+    width: 100%
+}
+.item-text-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4%;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.item-btn {
+    height: 45px;
+    max-width: 94%;
+    margin: 0 4%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+.item-btn-lt {
+    border: 2px solid #363636;
+}
+.item-btn-dt {
+    border: 2px solid #eee;
+}
+
+
+.item-btn-lt a {
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #363636;
+    font-weight: 500;
+    line-height: 2.3;
+}
+.item-btn-dt a {
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #eee;
+    font-weight: 500;
+    line-height: 2.3;
+}
+
+.item-btn.item-btn-lt:hover a {
+    background: #363636;
+    color: #eee;
+    transition: 0.5s;
+}
+.item-btn.item-btn-dt:hover a {
+    background: #eee;
+    color: #363636;
+    transition: 0.5s;
+}
