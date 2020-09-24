@@ -8,3 +8,16 @@ $(window).scroll(function() {
 $('.drop-up').click(function() {
     $('html, body').stop().animate({scrollTop : 0}, 300);
 });
+
+// $(window).scroll(function() {
+//     $('.drop-down').click(function() {
+//         $('html, body').stop().animate({scrollBottom: 0}, 300); 
+//     })
+// });
+
+$(function(){
+	$('.fa-angle-down').click(function(){
+		$('html, body').animate({scrollTop: 520}, 1000);
+		return false;
+	});
+});

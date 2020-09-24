@@ -134,11 +134,13 @@ a.btn {
 }
 .header-bottom {
     display: flex;
-    justify-content: center;;
+    justify-content: center;
+    
 }
 i.fa-angle-down:hover {
     color: #fb565a;
     transition: 1s;
+    cursor: pointer;
 }
 
 .footer {
