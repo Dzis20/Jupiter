@@ -27,6 +27,31 @@
     transition: 0.5s;
     background: #eee;
 }
+.sort {
+    padding-top: 50px;
+}
+.sort-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.sort-item-select {
+    height: 55px;
+    width: 400px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-style: 20px;
+}
+.sort-item-select-lt {
+    border: 2px solid #363636
+}
+.sort-item-select-dt {
+    border: 2px solid #eee;
+}
+.sort-item-select option {
+    font-size: 18px;
+}
 .items {
     padding: 50px 0;
 }

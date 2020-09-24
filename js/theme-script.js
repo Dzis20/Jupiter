@@ -43,6 +43,9 @@ $(document).ready(function() {
         $('.item-btn').toggleClass('item-btn-lt');
         $('.item-btn').toggleClass('item-btn-dt');
 
+        $('.sort-item-select').toggleClass('sort-item-select-lt');
+        $('.sort-item-select').toggleClass('sort-item-select-dt');
+
         $('.form-check').toggleClass('form-check-lt');
         $('.form-check').toggleClass('form-check-dt');
 
