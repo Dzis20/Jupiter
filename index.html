@@ -6,11 +6,14 @@
     <title>Jupiter - интернет-магазин дизайнерской одежды</title>
     <meta name="description" content="Описание содержимого страницы">
     <meta name="keywords" content="Ключевые слова через запятую">
+    <!--CSS-файлы-->
     <link rel="stylesheet" href="css/body-style.css">
     <link rel="stylesheet" href="css/header-footer.css">
     <link rel="stylesheet" href="css/index-style.css">
     <link rel="stylesheet" href="css/media.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script> <!--jQuery-->
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script> 
+    <!--Иконки-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous"> <!--Иконки-->
     <!--Слайдер-->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
@@ -18,14 +21,17 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!--Анимация-->
-    <link rel="stylesheet" media="all" href="animate.css/animate.css">
+    <link rel="stylesheet" href="node_modules/wowjs/css/libs/animate.css">
+    <!-- <link rel="stylesheet" media="all" href="animate.css/animate.css"> -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
-    <!--WOW-->
-    <script src="js/wow.js"></script>
-    <script>new WOW().init();</script>
+    <style>
+        .wow:first-child {
+          visibility: hidden;
+        }
+    </style>
 </head>
 <body class="light-theme">
-     <div class="header"> <!--animate__animated animate__fadeInLeftBig animate__delay-1s -->
+     <div class="header wow fadeInLeftBig"  data-wow-duration="2s"> <!--animate__animated animate__fadeInLeftBig animate__delay-1s -->
         <div class="container">
             <div class="header-top header-top-lt ">
                 <div class="container">
@@ -57,7 +63,7 @@
             </div>
         </div>
     </div>
-    <div class="slider"> <!-- animate__animated animate__fadeInRightBig animate__delay-3s -->
+    <div class="slider wow fadeInRightBig" data-wow-duration="2s" data-wow-delay="1000ms"> <!-- animate__animated animate__fadeInRightBig animate__delay-3s -->
         <div class="container">
             <h2 class="section-title">Почему именно мы</h2>
             <div class="swiper">
@@ -113,7 +119,7 @@
             </div>
         </div>
     </div>
-    <div class="popular"> <!-- animate__animated animate__fadeInLeftBig animate__delay-5s -->
+    <div class="popular wow fadeInLeftBig" data-wow-duration="2s" data-wow-delay="1000ms"> <!-- animate__animated animate__fadeInLeftBig animate__delay-5s -->
         <div class="container">
             <div class="popular-header">
                 <h2 class="section-title">Наши топ позиции</h2>
@@ -170,7 +176,7 @@
             </div>
         </div>
     </div>
-    <div class="video animate__animated animate__fadeInLeftBig animate__delay-7s">
+    <div class="video wow fadeInRightBig" data-wow-duration="2s" data-wow-delay="1000ms">
         <div class="container">
             <h2 class="section-title">История создания</h2>
             <div class="video-script">
@@ -179,7 +185,7 @@
             </div>
         </div>
     </div>
-    <div class="footer animate__animated animate__fadeInLeftBig animate__delay-7s">
+    <div class="footer wow fadeInLeftBig" data-wow-duration="2s" data-wow-delay="1000ms">
         <div class="container">
             <div class="footer-top footer-top-lt">
                 <div class="footer-logo">
@@ -214,9 +220,16 @@
                     </div>
                 </div>
             </div>
+            <div class="drop-up drop-up-lt">
+                <i class="fas fa-chevron-up fa-2x"></i>
+            </div>
         </div>
     </div>
-    <script src="js/script.js"></script>
-    <script src="js/swiper.js"></script>
+    <script src="js/dropUp-script.js"></script>
+    <script src="js/burger-script.js"></script>
+    <script src="js/theme-script.js"></script>
+    <script src="js/swiper-script.js"></script>
+    <script src="node_modules/wowjs/dist/wow.js"></script>
+    <script src="js/wow-animate-script.js"></script>
 </body>
 </html>
