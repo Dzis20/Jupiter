@@ -59,7 +59,6 @@
     align-items: center;
     justify-content: flex-start;
     padding-bottom: 5px;
-    
 }
 .form-check-lt {
     border-bottom: 1px solid #363636;
@@ -78,14 +77,12 @@
 .form-row-left-part, .form-row-right-part {
     width: 49%
 }
-
 .message {
     flex-direction: column;
 }
 .message textarea {
     min-height: 120px;
 }
-
 input[type="submit"] {
     width: 200px;
     height: 54px;
@@ -97,7 +94,6 @@ input[type="submit"] {
     font: inherit;
     background: inherit;
 }
-
 input[type="submit"]:hover {
     color: #eee;
     background: #363636;

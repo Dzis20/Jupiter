@@ -9,8 +9,6 @@
     text-decoration: none;
     border-radius: 5px;
 }
-
-
 .contact-head-btn.btn-lt {
     color: #363636;
     border: 2px solid #363636;
@@ -29,13 +27,9 @@
     transition: 0.5s;
     background: #eee;
 }
-
-
-
 .map {
     padding: 50px 0;
 }
-
 .contact form {
     padding-top: 50px;
 }
@@ -78,12 +72,8 @@ textarea {
 input[type="submit"] {
     width: 200px;
     height: 54px;
-    /* padding: 9px 15px; */
-    
     border-radius: 5px;
-    
 }
-
 input[type="submit"].btn-lt {
     border: 2px solid #363636;
     background: inherit;
@@ -97,8 +87,6 @@ input[type="submit"].btn-dt {
 input[type="submit"].btn-lt:hover {
     background: #363636;
 }
-
-
 .item-btn {
     height: 45px;
     max-width: 94%;
@@ -114,8 +102,6 @@ input[type="submit"].btn-lt:hover {
 .item-btn-dt {
     border: 2px solid #eee;
 }
-
-
 .item-btn-lt a {
     text-align: center;
     width: 100%;
@@ -134,7 +120,6 @@ input[type="submit"].btn-lt:hover {
     font-weight: 500;
     line-height: 2.3;
 }
-
 .item-btn.item-btn-lt:hover {
     background: #363636;
     color: #eee;

@@ -27,7 +27,6 @@
     transition: 0.5s;
     background: #eee;
 }
-
 .question {
     padding: 50px 0;
 }
@@ -46,11 +45,9 @@ p {
     line-height: 35px;
     font-family: "Roboto", "Arial", sans-serif;
 }
-
 .question p:last-child {
     margin-bottom: 0;
 } 
-
 .item-btn {
     height: 45px;
     max-width: 94%;
@@ -66,8 +63,6 @@ p {
 .item-btn-dt {
     border: 2px solid #eee;
 }
-
-
 .item-btn-lt a {
     text-align: center;
     width: 100%;
@@ -86,7 +81,6 @@ p {
     font-weight: 500;
     line-height: 2.3;
 }
-
 .item-btn.item-btn-lt:hover {
     background: #363636;
     color: #eee;

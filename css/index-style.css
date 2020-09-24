@@ -11,7 +11,6 @@
     display: flex;
     justify-content: space-between;
 }
-
 .slide-text {
     max-width: 60%;
     padding: 30px 0;
@@ -28,7 +27,6 @@ h3.slide-title {
     font-weight: 500;
     line-height: 40px;
     font-size: 30px;
-    /* color: #363636; */
     margin-bottom: 30px;
   }
   .slide-text a {
@@ -47,7 +45,6 @@ h3.slide-title {
     border-radius: 5px;
     line-height: 3.8;
   }
-
 .slide-img {
     max-width: 300px;
     height: 100%;
@@ -58,12 +55,9 @@ h3.slide-title {
 .slide-img img {
     width: 100%;
 }
-
 /* popular */
-
 .popular {
     padding: 50px 0;
-    /* background: #eeeeee; */
 }
 .popular-header {
     display: flex;
@@ -73,15 +67,11 @@ h3.slide-title {
 .popular-list {
     display: flex;
     justify-content: space-between;
-    /* margin-bottom: 50px; */
-
-    /* flex-wrap: wrap; */
 }
 .popular-item {
     max-width: 330px;
     display: flex;
     flex-direction: column;
-    
 }
 .popular-item-lt {
     border: 2px solid #363636;
@@ -89,11 +79,9 @@ h3.slide-title {
 .popular-item-dt {
     border: 2px solid #eee;
 }
-
 .popular-item-img {
     max-width: 330px;
-    max-height: 326px;
-    
+    max-height: 326px;   
     margin-bottom: 20px;
 }
 .popular-item-img-lt {
@@ -102,12 +90,9 @@ h3.slide-title {
 .popular-item-img-dt {
     border-bottom: 1px solid #eee;
 }
-
 .popular-item-img img {
     width: 100%
 }
-
-
 .popular-text-row {
     display: flex;
     justify-content: space-between;
@@ -116,12 +101,9 @@ h3.slide-title {
     font-size: 16px;
     font-weight: 600;
 }
-
-
 .popular-item-btn {
     height: 45px;
-    max-width: 94%;
-    
+    max-width: 94%;   
     margin: 0 4%;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -134,8 +116,6 @@ h3.slide-title {
 .popular-item-btn-dt {
     border: 2px solid #eee;
 }
-
-
 .popular-item-btn:hover {
     background: #363636;
     transition: 0.5s;
@@ -144,8 +124,6 @@ h3.slide-title {
     background: #eee;
     transition: 0.5s;
 }
-
-
 .popular-item-btn a {
     text-align: center;
     width: 100%;
@@ -164,8 +142,6 @@ h3.slide-title {
     font-weight: 500;
     line-height: 2.3;
 }
-
-
 .popular-item-btn:hover a {
     color: #eee;
     transition: 0.5s;
@@ -174,7 +150,6 @@ h3.slide-title {
     color: #363636;
     transition: 0.5s;
 }
-
 .video {
     padding: 50px 0;
 }
