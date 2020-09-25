@@ -35,22 +35,25 @@
     justify-content: space-between;
     align-items: flex-start;
 }
+#sort-item-select {
+    font-style: 30px;
+}
 .sort-item-select {
     height: 55px;
     width: 400px;
     margin-top: 5px;
     border-radius: 5px;
     padding-left: 10px;
-    font-style: 20px;
+    
 }
 .sort-item-select-lt {
-    border: 2px solid #363636
+    border: 1px solid #363636
 }
 .sort-item-select-dt {
-    border: 2px solid #eee;
+    border: 1px solid #eee;
 }
 .sort-item-select option {
-    font-size: 18px;
+    font-size: 20px;
 }
 .items {
     padding: 50px 0;
@@ -67,10 +70,10 @@
     margin-bottom: 50px;
 }
 .item-lt {
-    border: 2px solid #363636;
+    border: 1px solid #363636;
 }
 .item-dt {
-    border: 2px solid #eee;
+    border: 1px solid #eee;
 }
 .item-img {
     max-width: 330px;
@@ -104,7 +107,7 @@
     justify-content: center;
 }
 .item-btn-lt {
-    border: 2px solid #363636;
+    border: 1px solid #363636;
 }
 .item-btn-dt {
     border: 2px solid #eee;

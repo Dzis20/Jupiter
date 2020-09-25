@@ -74,10 +74,10 @@ h3.slide-title {
     flex-direction: column;
 }
 .popular-item-lt {
-    border: 2px solid #363636;
+    border: 1px solid #363636;
 }
 .popular-item-dt {
-    border: 2px solid #eee;
+    border: 1px solid #eee;
 }
 .popular-item-img {
     max-width: 330px;
@@ -111,10 +111,10 @@ h3.slide-title {
     justify-content: center;
 }
 .popular-item-btn-lt {
-    border: 2px solid #363636;
+    border: 1px solid #363636;
 }
 .popular-item-btn-dt {
-    border: 2px solid #eee;
+    border: 1px solid #eee;
 }
 .popular-item-btn:hover {
     background: #363636;

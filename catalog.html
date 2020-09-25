@@ -50,12 +50,14 @@
         <div class="container">
             <div class="sort-body">
                 <h2 class="section-title">Сортировка позиций:</h2>
-                <select class="sort-item-select sort-item-select-a sort-item-select-lt">
+                <select class="sort-item-select sort-item-select-a sort-item-select-lt" id="sort-item-select">
                     <option selected>Цена по умолч.</option>
                     <option data-sort="price:asc">Цена <b>↑</b></option>
                     <option data-sort="price:desc">Цена <b>↓</b></option>
                     <option data-sort="length:asc">Рейтинг <b>↑</b></option>
                     <option data-sort="length:desc">Рейтинг <b>↓</b></option>
+                    <option data-sort="name:asc">Название "A - Я"</option>
+                    <option data-sort="name:desc">Название "Я - А"</option>
                 </select>
             </div>
         </div>
@@ -67,7 +69,7 @@
                     <h2 class="section-title">Футболки</h2>
                 </div>
                 <div class="items-list">
-                    <div class="item item-lt" data-price="1000" data-length="6">
+                    <div class="item item-lt" data-price="1000" data-length="6" data-name="5">
                         <div class="item-img item-img-lt">
                             <img src="img/tshirt-1.jpg" alt="">
                         </div>
@@ -77,11 +79,11 @@
                                 <span class="price">1000р.</span>
                             </div>
                             <div class="item-btn item-btn-lt">
-                                <a href="" class="popular-btn">Описание</a>
+                                <a href="tshirt-one.html" class="popular-btn">Описание</a>
                             </div>
                         </div>
                     </div>
-                    <div class="item item-lt" data-price="1100" data-length="2">
+                    <div class="item item-lt" data-price="1100" data-length="2" data-name="2">
                         <div class="item-img item-img-lt">
                             <img src="img/tshirt-2.jpg" alt="">
                         </div>
@@ -91,12 +93,12 @@
                                 <span class="price">1200р.</span>
                             </div>
                             <div class="item-btn item-btn-lt">
-                                <a href="" class="popular-btn">Описание</a>
+                                <a href="tshirt-two.html" class="popular-btn">Описание</a>
                             </div>
                         </div>
                     </div>
                     <div class="item item-lt">
-                        <div class="item-img item-img-lt" data-price="1000" data-length="3">
+                        <div class="item-img item-img-lt" data-price="1000" data-length="3" data-name="3">
                             <img src="img/tshirt-6.jpg" alt="">
                         </div>
                         <div class="item-text">
@@ -105,11 +107,11 @@
                                 <span class="price">900р.</span>
                             </div>
                             <div class="item-btn item-btn-lt">
-                                <a href="" class="popular-btn">Описание</a>
+                                <a href="tshirt-three.html" class="popular-btn">Описание</a>
                             </div>
                         </div>
                     </div>
-                    <div class="item item-lt" data-price="1000" data-length="1">
+                    <div class="item item-lt" data-price="1000" data-length="1" data-name="1">
                         <div class="item-img item-img-lt">
                             <img src="img/tshirt-4.jpg" alt="">
                         </div>
@@ -119,11 +121,11 @@
                                 <span class="price">1000р.</span>
                             </div>
                             <div class="item-btn item-btn-lt">
-                                <a href="" class="popular-btn">Описание</a>
+                                <a href="tshirt-four.html" class="popular-btn">Описание</a>
                             </div>
                         </div>
                     </div>
-                    <div class="item item-lt" data-price="1300" data-length="4">
+                    <div class="item item-lt" data-price="1300" data-length="4" data-name="6">
                         <div class="item-img item-img-lt">
                             <img src="img/tshirt-5.jpg" alt="">
                         </div>
@@ -133,11 +135,11 @@
                                 <span class="price">1400р.</span>
                             </div>
                             <div class="item-btn item-btn-lt">
-                                <a href="" class="popular-btn">Описание</a>
+                                <a href="tshirt-five.html" class="popular-btn">Описание</a>
                             </div>
                         </div>
                     </div>
-                    <div class="item item-lt" data-price="1400" data-length="5">
+                    <div class="item item-lt" data-price="1400" data-length="5" data-name="4">
                         <div class="item-img item-img-lt">
                             <img src="img/tshirt-3.jpg" alt="">
                         </div>
@@ -147,7 +149,7 @@
                                 <span class="price">1600р.</span>
                             </div>
                             <div class="item-btn item-btn-lt">
-                                <a href="" class="popular-btn">Описание</a>
+                                <a href="tshirt-six.html" class="popular-btn">Описание</a>
                             </div>
                         </div>
                     </div>
@@ -160,7 +162,7 @@
                     <h2 class="section-title">Худи</h2>
                 </div>
                 <div class="items-list">
-                    <div class="item item-lt" data-price="2500" data-length="6">
+                    <div class="item item-lt" data-price="2500" data-length="6" data-name="4">
                         <div class="item-img item-img-lt">
                             <img src="img/hudy-1.jpg" alt="">
                         </div>
@@ -170,11 +172,11 @@
                                 <span class="price">2500р.</span>
                             </div>
                             <div class="item-btn item-btn-lt">
-                                <a href="" class="popular-btn">Описание</a>
+                                <a href="hudy-one.html" class="popular-btn">Описание</a>
                             </div>
                         </div>
                     </div>
-                    <div class="item item-lt" data-price="2300" data-length="2">
+                    <div class="item item-lt" data-price="2300" data-length="2" data-name="5">
                         <div class="item-img item-img-lt">
                             <img src="img/hudy-2.jpg" alt="">
                         </div>
@@ -184,11 +186,11 @@
                                 <span class="price">2300р.</span>
                             </div>
                             <div class="item-btn item-btn-lt">
-                                <a href="" class="popular-btn">Описание</a>
+                                <a href="hudy-two.html" class="popular-btn">Описание</a>
                             </div>
                         </div>
                     </div>
-                    <div class="item item-lt" data-price="2600" data-length="1">
+                    <div class="item item-lt" data-price="2600" data-length="1" data-name="2">
                         <div class="item-img item-img-lt">
                             <img src="img/hudy-3.jpg" alt="">
                         </div>
@@ -198,11 +200,11 @@
                                 <span class="price">2600р.</span>
                             </div>
                             <div class="item-btn item-btn-lt">
-                                <a href="" class="popular-btn">Описание</a>
+                                <a href="hudy-three.html" class="popular-btn">Описание</a>
                             </div>
                         </div>
                     </div>
-                    <div class="item item-lt" data-price="2200" data-length="3">
+                    <div class="item item-lt" data-price="2200" data-length="3" data-name="1">
                         <div class="item-img item-img-lt">
                             <img src="img/hudy-4.jpg" alt="">
                         </div>
@@ -212,11 +214,11 @@
                                 <span class="price">2200р.</span>
                             </div>
                             <div class="item-btn item-btn-lt">
-                                <a href="" class="popular-btn">Описание</a>
+                                <a href="hudy-four.html" class="popular-btn">Описание</a>
                             </div>
                         </div>
                     </div>
-                    <div class="item item-lt" data-price="2500" data-length="4">
+                    <div class="item item-lt" data-price="2500" data-length="4" data-name="3">
                         <div class="item-img item-img-lt">
                             <img src="img/hudy-5.jpg" alt="">
                         </div>
@@ -226,11 +228,11 @@
                                 <span class="price">2500р.</span>
                             </div>
                             <div class="item-btn item-btn-lt">
-                                <a href="" class="popular-btn">Описание</a>
+                                <a href="hudy-five.html" class="popular-btn">Описание</a>
                             </div>
                         </div>
                     </div>
-                    <div class="item item-lt" data-price="2400" data-length="5">
+                    <div class="item item-lt" data-price="2400" data-length="5" data-name="6">
                         <div class="item-img item-img-lt">
                             <img src="img/hudy-6.jpg" alt="">
                         </div>
@@ -240,7 +242,7 @@
                                 <span class="price">2400р.</span>
                             </div>
                             <div class="item-btn item-btn-lt">
-                                <a href="" class="popular-btn">Описание</a>
+                                <a href="hudy-six.html" class="popular-btn">Описание</a>
                             </div>
                         </div>
                     </div>
@@ -254,7 +256,7 @@
                     <h2 class="section-title">Свитшоты</h2>
                 </div>
                 <div class="items-list">
-                    <div class="item item-lt" data-price="3100" data-length="6">
+                    <div class="item item-lt" data-price="3100" data-length="6" data-name="3">
                         <div class="item-img item-img-lt">
                             <img src="img/sweatshirt-1.jpg" alt="">
                         </div>
@@ -264,11 +266,11 @@
                                 <span class="price">3100р.</span>
                             </div>
                             <div class="item-btn item-btn-lt">
-                                <a href="" class="popular-btn">Описание</a>
+                                <a href="sweatshirt-one.html" class="popular-btn">Описание</a>
                             </div>
                         </div>
                     </div>
-                    <div class="item item-lt" data-price="3300" data-length="2">
+                    <div class="item item-lt" data-price="3300" data-length="2" data-name="4">
                         <div class="item-img item-img-lt">
                             <img src="img/sweatshirt-2.jpg" alt="">
                         </div>
@@ -278,11 +280,11 @@
                                 <span class="price">3300р.</span>
                             </div>
                             <div class="item-btn item-btn-lt">
-                                <a href="" class="popular-btn">Описание</a>
+                                <a href="sweatshirt-two.html" class="popular-btn">Описание</a>
                             </div>
                         </div>
                     </div>
-                    <div class="item item-lt" data-price="3600" data-length="1">
+                    <div class="item item-lt" data-price="3600" data-length="1" data-name="5">
                         <div class="item-img item-img-lt">
                             <img src="img/sweatshirt-3.jpg" alt="">
                         </div>
@@ -292,11 +294,11 @@
                                 <span class="price">3600р.</span>
                             </div>
                             <div class="item-btn item-btn-lt">
-                                <a href="" class="popular-btn">Описание</a>
+                                <a href="sweatshirt-three.html" class="popular-btn">Описание</a>
                             </div>
                         </div>
                     </div>
-                    <div class="item item-lt" data-price="3200" data-length="3">
+                    <div class="item item-lt" data-price="3200" data-length="3" data-name="1">
                         <div class="item-img item-img-lt">
                             <img src="img/sweatshirt-4.jpg" alt="">
                         </div>
@@ -306,11 +308,11 @@
                                 <span class="price">3200р.</span>
                             </div>
                             <div class="item-btn item-btn-lt">
-                                <a href="" class="popular-btn">Описание</a>
+                                <a href="sweatshirt-four.html" class="popular-btn">Описание</a>
                             </div>
                         </div>
                     </div>
-                    <div class="item item-lt" data-price="3600" data-length="4">
+                    <div class="item item-lt" data-price="3600" data-length="4" data-name="2">
                         <div class="item-img item-img-lt">
                             <img src="img/sweatshirt-5.jpg" alt="">
                         </div>
@@ -320,11 +322,11 @@
                                 <span class="price">3600р.</span>
                             </div>
                             <div class="item-btn item-btn-lt">
-                                <a href="" class="popular-btn">Описание</a>
+                                <a href="sweatshirt-five.html" class="popular-btn">Описание</a>
                             </div>
                         </div>
                     </div>
-                    <div class="item item-lt" data-price="3400" data-length="5">
+                    <div class="item item-lt" data-price="3400" data-length="5" data-name="6">
                         <div class="item-img item-img-lt">
                             <img src="img/sweatshirt-6.jpg" alt="">
                         </div>
@@ -334,7 +336,7 @@
                                 <span class="price">3400р.</span>
                             </div>
                             <div class="item-btn item-btn-lt">
-                                <a href="" class="popular-btn">Описание</a>
+                                <a href="sweatshirt-six.html" class="popular-btn">Описание</a>
                             </div>
                         </div>
                     </div>
