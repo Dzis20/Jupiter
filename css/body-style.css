@@ -18,7 +18,7 @@ body.light-theme {
     color: #363636;
 }
 body.dark-theme {
-    background: #363636;
+    background: #2A2D34;
     color: #eee;
 }
 .container {
@@ -69,7 +69,7 @@ a.other-btn:hover {
 .other-btn.btn-dt:hover {
     background: #eee;
     transition: 1s;
-    color: #363636;
+    color: #2A2D34;
 }
 
 .drop-up {
@@ -94,7 +94,7 @@ a.other-btn:hover {
 }
 .drop-up-dt {
     color: inherit;
-    background: #363636;
+    background: #2A2D34;
     border: 1px solid #eeeeee;
     box-shadow: 0px 0px 15px 0px;
 }

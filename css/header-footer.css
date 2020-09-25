@@ -31,7 +31,7 @@
     background: #eee;
 }
 .header-top-dt::before {
-    background: #363636;
+    background: #2A2D34;
 }
 
 .header-top-content {
@@ -109,7 +109,7 @@ a.btn {
 .btn.btn-dt:hover {
     background: #eee;
     transition: 1s;
-    color: #363636;
+    color: #2A2D34;
 }
 
 .btn.btn-dt {
@@ -229,7 +229,7 @@ i.fa-angle-down:hover {
 .footer-top a.btn-dt:hover {
     background: #eee;
     transition: 0.5s;
-    color: #363636;
+    color: #2A2D34;
 }
 
 
@@ -380,7 +380,7 @@ i.fa-angle-down:hover {
         background-color: #eeeeee;
     }
     .header-nav-dt {
-        background-color: #363636;
+        background-color: #2A2D34;
     }
     .header-btn {
         position: fixed;

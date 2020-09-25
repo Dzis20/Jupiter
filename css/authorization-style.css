@@ -22,18 +22,19 @@ input {
     height: 56px;
     width: 50%;
     border-radius: 5px;
-    border: 2px solid #363636;
+    border: 1px solid #363636;
 }
 input[type="submit"] {
     width: 200px;
     height: 54px;
     /* padding: 9px 15px; */
-    border: 2px solid #363636;
+    border: 1px solid #363636;
     border-radius: 5px;
     background: inherit;
     /* transition: 1s; */
     transition: 0.5s;
     font: inherit;
+    cursor: pointer;
 }
 input[type="submit"]:hover {
     color: #eee;

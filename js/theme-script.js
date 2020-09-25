@@ -18,9 +18,11 @@ $(document).ready(function() {
         $('.btn').toggleClass('btn-lt');
         $('.btn').toggleClass('btn-dt');
 
-        $('.catalog-head-btn,.question-head-btn,.contact-head-btn').toggleClass('btn-lt');
-        $('.catalog-head-btn,.question-head-btn,.contact-head-btn').toggleClass('btn-dt');
-        
+        $('.btn-order').toggleClass('btn-order-lt');
+        $('.btn-order').toggleClass('btn-order-dt');
+
+        $('.catalog-head-btn,.question-head-btn,.contact-head-btn,.item-btn').toggleClass('btn-lt');
+        $('.catalog-head-btn,.question-head-btn,.contact-head-btn,.item-btn').toggleClass('btn-dt');
 
         $('.other-btn').toggleClass('btn-lt');
         $('.other-btn').toggleClass('btn-dt');

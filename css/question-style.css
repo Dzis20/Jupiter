@@ -23,7 +23,7 @@
     background: #363636;
 }
 .question-head-btn.btn-dt:hover {
-    color: #363636;
+    color: #2A2D34;
     transition: 0.5s;
     background: #eee;
 }
@@ -88,6 +88,6 @@ p {
 }
 .item-btn.item-btn-dt:hover a {
     background: #eee;
-    color: #363636;
+    color: #2A2D34;
     transition: 0.5s;
 }
